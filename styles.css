@@ -1,0 +1,39 @@
+*{
+ font-family: poppins;
+ margin: 0;
+ padding: 0;
+}
+*::selection{
+ background-color: transparent;
+}
+
+body, div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: #14213d;
+}
+
+div h1{
+ font-size: 50vh;
+ color: #4cc9f0;
+}
+
+button{
+ transition: 0.2s;
+ padding: 0.5em 1em;
+ font-size: 30px;
+ background-color: transparent;
+ border-radius: 10px;
+ width: 6em;
+ border: 1px solid #f1faee;
+ color: #f1faee;
+ margin-bottom: 0.5em;
+}
+button:hover{
+ background-color: #4cc9f0;
+ border: 1px solid #4cc9f0;
+ color: #14213d;
+ transition: 0.2s;
+}
